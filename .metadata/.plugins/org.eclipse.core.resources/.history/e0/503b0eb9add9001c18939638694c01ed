@@ -1,0 +1,74 @@
+package quadroAcidente;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Scanner;
+
+public class Teste {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int dia, mes, ano2;
+		float soma2;
+		float ano;
+		long tempo; 
+
+		String opcao;
+
+		float soma;
+
+		float contagemInicial = 629;
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		
+		LocalDate localDate8 = LocalDate.now();
+		LocalDate localDate9 = LocalDate.now().minusDays(1);
+		  
+		boolean isAfter  = localDate8.isAfter(localDate9);   //true
+		boolean isBefore = localDate8.isBefore(localDate9); //false
+		boolean isEqual  = localDate8.isEqual(localDate9); //false
+		System.out.println("----------------------------");
+		System.out.println("Dia atual: "+localDate8);
+		System.out.println("Dia anterior: "+localDate9);
+		
+		
+		LocalDateTime dia_autal = LocalDateTime.now();
+		String hoje = dia_autal.format(formatter);
+		System.out.println("Data autal: " + hoje);
+		System.out.println();
+
+//		LocalDate dia_anterior = LocalDate.of(2022, 5, 1);
+		LocalDate dia_anterior = LocalDate.ofEpochDay(1);
+		LocalDate dataFinal = LocalDate.now();
+		System.out.println("Dia atual:" + dataFinal.format(formatter));
+		System.out.println("----------------------------");
+		System.out.println("Dia anterior:" + dia_anterior.format(formatter));
+		System.out.println();
+		
+		long days = ChronoUnit.DAYS.between(dia_anterior, dataFinal);
+		tempo = ChronoUnit.DAYS.between(dia_anterior, dia_autal);
+
+		System.out.println("Dias contado aparti da data de início: " + days);
+		System.out.println(" Tempo: " + tempo);
+
+		soma = contagemInicial + days;
+		soma2 = contagemInicial + tempo;
+
+		// System.out.println("Quadro de acidente: "+ soma);
+		System.out.println("Quadro de acidente em tempo: " + String.format("%.0f", soma2) + " dias sem acidentes");
+		
+		ano = contagemInicial / 365;
+		System.out.println("Quantidade de tempo sem acidentes: " + String.format("%.2f", ano));
+
+		
+
+		
+
+		sc.close();
+	}
+
+}

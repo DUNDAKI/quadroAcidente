@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;diaAtual&apos; in &apos;dio.Main.main(...)&apos; to &apos;dia&apos;&#x0D;&#x0A;- Original project: &apos;dio&apos;&#x0D;&#x0A;- Original element: &apos;dio.Main.main(String[]).diaAtual&apos;&#x0D;&#x0A;- Renamed element: &apos;diaAtual&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;diaAtual&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;dio{Main.java[Main~main~\[QString;@diaAtual!660!706!664!671!I!0!false" name="dia" references="true" stamp="1653044036058" version="1.0"/>
+</session>

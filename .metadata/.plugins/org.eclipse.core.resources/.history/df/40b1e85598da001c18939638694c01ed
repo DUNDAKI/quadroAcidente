@@ -1,0 +1,74 @@
+package quadroAcidente;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Scanner;
+
+public class Teste {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int dia, mes, ano2;
+		float soma2;
+		float ano;
+		long tempo; 
+
+		String opcao;
+
+		float soma;
+
+		float contagemInicial = 629;
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		
+		LocalDate hoje = LocalDate.now();
+		LocalDate dia_anterior = LocalDate.now().minusDays(1);
+		
+		
+		long days = ChronoUnit.DAYS.between(hoje, dia_anterior);
+		
+		
+		
+		  
+		boolean isAfter  = hoje.isAfter(dia_anterior);   //true
+		boolean isBefore = hoje.isBefore(dia_anterior); //false
+		boolean isEqual  = hoje.isEqual(dia_anterior); //false
+		System.out.println("----------------------------");
+		System.out.println("Dia atual: "+hoje);
+		System.out.println("Dia anterior: "+dia_anterior);
+		System.out.println("----------------------------");
+		
+		if(hoje.isAfter(dia_anterior)) {
+			System.out.println("ok");
+		}else {
+			System.out.println("triste");
+		}
+		
+		
+//			long days = ChronoUnit.DAYS.between(dia_anterior, dataFinal);
+////		tempo = ChronoUnit.DAYS.between(dia_anterior, dia_autal);
+//
+//		System.out.println("Dias contado aparti da data de início: " + days);
+//		System.out.println(" Tempo: " + tempo);
+//
+//		soma = contagemInicial + days;
+//		soma2 = contagemInicial + tempo;
+
+		// System.out.println("Quadro de acidente: "+ soma);
+//		System.out.println("Quadro de acidente em tempo: " + String.format("%.0f", soma2) + " dias sem acidsentes");
+		
+		ano = contagemInicial / 365;
+		System.out.println("Quantidade de tempo sem acidentes: " + String.format("%.2f", ano));
+
+		
+
+		
+
+		sc.close();
+	}
+
+}

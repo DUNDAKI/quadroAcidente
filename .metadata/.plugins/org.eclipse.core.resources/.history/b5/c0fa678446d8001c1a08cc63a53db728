@@ -1,0 +1,50 @@
+package quadroAcidente;
+
+import java.util.Calendar;
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		int num;
+		int contagemInicial = 629;
+		Scanner sc = new Scanner(System.in);
+		Calendar hoje = Calendar.getInstance();
+		int ano = hoje.get(Calendar.YEAR);
+		int mes = hoje.get(Calendar.MONTH);
+//		int dia = hoje.get(Calendar.DAY_OF_MONTH);
+		int dia = hoje.get(Calendar.DAY_OF_MONTH);
+		// System.out.println(mes);
+		// System.out.println(ano);
+
+		for (int i = 0; i <= 15; i++) {
+			dia++;
+			System.out.println("Dia teste: " + dia);
+			
+		}
+			while (dia != 0) {
+
+				System.out.println("Dia inicio: " + dia);
+				System.out.println("Informe dia");
+				num = sc.nextInt();
+				System.out.println("Informado foi: " + num);
+
+				if (num >= dia) {
+					contagemInicial++;
+					System.out.println("Quadro atualizado: " + contagemInicial);
+				}
+
+				if (num > 30) {
+					dia = 1;
+					contagemInicial++;
+					
+					System.out.println("Programa foi pausado");
+				}
+
+			}
+
+		
+
+	}
+
+}

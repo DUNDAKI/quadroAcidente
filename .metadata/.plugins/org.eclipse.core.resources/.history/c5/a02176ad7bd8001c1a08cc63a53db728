@@ -1,0 +1,38 @@
+package quadroAcidente;
+
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+
+public class Teste {
+	public static final String DATE_FORMAT_NOW = "dd/MM/yyyy";
+	public static void main(String[] args) {
+		long soma;
+		
+		
+		
+        
+//		int num;
+		int contagemInicial = 629;
+//		Scanner sc = new Scanner(System.in);
+//		Calendar hoje = Calendar.getInstance();
+//		int ano = hoje.get(Calendar.YEAR);
+//		int mes = hoje.get(Calendar.MONTH);
+////		int dia = hoje.get(Calendar.DAY_OF_MONTH);
+//		int dia = hoje.get(Calendar.DAY_OF_MONTH);
+//		// System.out.println(mes);
+//		// System.out.println(ano);
+		LocalDate dataInicio = LocalDate.of(2022,5,1);
+		LocalDate dataFinal = LocalDate.of(2022,5,20);
+		
+		long days = ChronoUnit.DAYS.between(dataInicio, dataFinal);
+		System.out.println(days);
+		
+		soma = contagemInicial + days;
+		System.out.println("Quadro de acidente: "+ soma);
+	}
+	
+	
+
+	
+
+}

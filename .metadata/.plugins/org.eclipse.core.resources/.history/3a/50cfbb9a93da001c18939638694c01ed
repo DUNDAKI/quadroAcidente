@@ -1,0 +1,28 @@
+package teste;
+
+import java.text.ParseException;
+import java.util.Calendar;
+import java.util.Date;
+
+public class Main {
+
+	public static void main(String[] args) throws ParseException {
+
+		Date data1 = new Date(), data2 = new Date();
+		int contagem = 631;
+
+		Calendar c1 = Calendar.getInstance();
+
+		// Pega a primeira data
+		c1.set(2022, 5, 20);
+		data1.setTime(c1.getTimeInMillis());
+
+		// Pega a segunda data
+		c1.set(2022, 5, 23);
+		data2.setTime(Calendar.DAY_OF_MONTH);
+
+		System.out.println((data2.getTime() - data1.getTime()) / 1000 / 60 / 60 / 24);
+
+	}
+
+}

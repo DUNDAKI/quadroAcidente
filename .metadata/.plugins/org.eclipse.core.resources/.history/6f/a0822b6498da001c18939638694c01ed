@@ -1,0 +1,45 @@
+package quadroAcidente;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Scanner;
+
+public class Teste {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int dia, mes, ano2;
+		float soma2;
+		float ano;
+		long tempo; 
+
+		String opcao;
+
+		float soma;
+
+		float contagemInicial = 629;
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		
+		LocalDate hoje = LocalDate.now();
+		LocalDate dia_anterior = LocalDate.now().minusDays(1);
+		
+		
+		long days = ChronoUnit.DAYS.between(hoje, dia_anterior);
+		
+		System.out.println("Diferença de dias: " + days);
+		
+	
+
+		
+
+		
+
+		sc.close();
+	}
+
+}

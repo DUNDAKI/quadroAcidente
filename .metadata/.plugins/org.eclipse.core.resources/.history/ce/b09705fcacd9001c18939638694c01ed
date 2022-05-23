@@ -1,0 +1,26 @@
+package pegandoDiaAnterior;
+
+import java.util.Calendar;
+
+public class Pegando_dia {
+
+	public static void main(String[] args) {
+		
+		Calendar dataOrdem = Calendar.getInstance();
+	    // coloca a data em 31/03
+	    dataOrdem.set(Calendar.DAY_OF_MONTH, 31);
+	    dataOrdem.set(Calendar.MONTH, 2); // 2 = março
+
+	    System.out.println(testarDiaAnterior(dataOrdem));
+	}
+	 private static boolean testarDiaAnterior(Calendar dataOrdem){
+		    Calendar hoje = Calendar.getInstance();
+		    hoje.set(Calendar.HOUR, 0);
+		    hoje.set(Calendar.MINUTE, 0);
+		    hoje.set(Calendar.SECOND, 0);
+		    hoje.set(Calendar.MILLISECOND, 0);
+		    return hoje.after(dataOrdem);
+		  }
+	
+
+}

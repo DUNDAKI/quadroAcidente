@@ -1,0 +1,192 @@
+package quadroAcidente;
+
+import java.awt.Color;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.SystemColor;
+import java.awt.Toolkit;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+import java.util.Date;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+import javax.swing.border.EmptyBorder;
+
+public class Teste2 extends JFrame {
+
+	
+	private JPanel contentPane;
+	private JLabel lbl_contagem;
+	private JLabel txt_data;
+	private JLabel txtDia;
+	private JLabel txtAcidentes;
+	private JLabel lblNewLabel_2;
+	private JLabel txtHora;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Teste2 frame = new Teste2();
+					frame.setVisible(true);
+					frame.setResizable(false);
+					frame.dispose();
+					
+					
+					//frame.setTitle("Monitoramento de dias de acidente");
+					frame.setLocale(null);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+		
+	}
+	
+
+	/**
+	 * Create the frame.
+	 */
+	public Teste2() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\vigjo\\Downloads\\logo.png"));
+		setTitle("MONITORAMENTO DE ACIDENTES");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 753, 420);
+		contentPane = new JPanel();
+		contentPane.setBackground(SystemColor.activeCaption);
+		contentPane.setForeground(new Color(176, 196, 222));
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		this.setLocationRelativeTo(null);
+		
+		JLabel lblNewLabel = new JLabel("QUADRO DE ACIDENTE ATUALIZADO");
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel.setBounds(210, 59, 342, 35);
+		contentPane.add(lblNewLabel);
+		
+		lbl_contagem = new JLabel("0000");
+		lbl_contagem.setEnabled(false);
+		lbl_contagem.setBackground(new Color(255, 0, 0));
+		lbl_contagem.setForeground(Color.BLACK);
+		lbl_contagem.setFont(new Font("Tahoma", Font.PLAIN, 60));
+		lbl_contagem.setHorizontalAlignment(SwingConstants.CENTER);
+		lbl_contagem.setBounds(239, 135, 155, 59);
+		contentPane.add(lbl_contagem);
+		
+		txt_data = new JLabel("00:00:00  00/00/0000");
+		txt_data.setFont(new Font("Tahoma", Font.PLAIN, 30));
+		txt_data.setHorizontalAlignment(SwingConstants.CENTER);
+		txt_data.setBounds(89, 335, 305, 35);
+		contentPane.add(txt_data);
+		
+		JButton btnZerar = new JButton("ZERAR CONTAGEM");
+		btnZerar.setBackground(SystemColor.windowBorder);
+		btnZerar.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		btnZerar.setBounds(475, 328, 209, 42);
+		contentPane.add(btnZerar);
+		
+		
+		txtDia = new JLabel("DIAS");
+		txtDia.setHorizontalAlignment(SwingConstants.CENTER);
+	    txtDia.setFont(new Font("Tahoma", Font.PLAIN, 35));
+	    txtDia.setBounds(400, 156, 86, 37);
+	    contentPane.add(txtDia);
+	    
+	    
+	    txtAcidentes = new JLabel("S/ ACIDENTES");
+	    txtAcidentes.setHorizontalAlignment(SwingConstants.CENTER);
+	    txtAcidentes.setFont(new Font("Tahoma", Font.PLAIN, 30));
+	    txtAcidentes.setBounds(498, 158, 201, 37);
+	    contentPane.add(txtAcidentes);
+	    
+	    lblNewLabel_2 = new JLabel("ESTAMOS H\u00C1");
+	    lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
+	    lblNewLabel_2.setFont(new Font("Tahoma", Font.PLAIN, 35));
+	    lblNewLabel_2.setBounds(20, 156, 209, 37);
+	    contentPane.add(lblNewLabel_2);
+	    
+	    txtHora = new JLabel("New label");
+	    txtHora.setBounds(59, 237, 190, 59);
+	    contentPane.add(txtHora);
+		
+		
+		LocalDate dia_anterior, hoje;
+		
+
+		int contagemInicial2 = 629;
+		int contagemInicial = 605;
+		DateTimeFormatter formatter =  DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		
+		hoje = LocalDate.now();		
+		dia_anterior = LocalDate.of(2022,4,26);
+		
+		Date data = new Date();
+		
+		System.out.println(sdf.format(data));
+		
+		
+		
+		
+		long days = ChronoUnit.DAYS.between(dia_anterior, hoje);
+		
+		System.out.println("Diferença de dias: " + days);
+		
+		int i;
+		for (i = 1; i <= days; i++) {
+			
+			
+			contagemInicial+=1;
+			lbl_contagem.setText(String.valueOf(contagemInicial));
+		}	
+		
+		ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+
+        scheduler.scheduleAtFixedRate(
+          new Runnable() {
+              public void run() {
+            	  
+            	  String hora =new SimpleDateFormat("HH:mm:ss").format(new Date());
+                  System.out.println();
+                  
+                  txtHora.setText(hora);
+              }
+        }, 1, 1, TimeUnit.SECONDS);
+		
+		
+		System.out.println("Contador: " + i);
+		System.out.println("Quadro Acidentes: " + contagemInicial);
+		
+	    txt_data.setText(String.valueOf(sdf.format(data)));
+	    
+	   
+	    
+	    
+	    
+	    
+
+	    if(contagemInicial == 0) {
+	    	txtAcidentes.setText("S/ ACIDENTE");
+	    }
+		
+		
+		
+
+	}
+	
+	
+}

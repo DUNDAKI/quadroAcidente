@@ -1,0 +1,48 @@
+package teste;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+public class Main {
+
+	public static void main(String[] args) throws ParseException {
+
+		//teste();
+
+		DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+		df.setLenient(false);
+		Date d1 = df.parse("20/05/2022");
+		System.out.println(d1);
+		Date d2 = df.parse("23/05/2022");
+		System.out.println(d2);
+		long dt = (d2.getTime() - d1.getTime()) + 3600000; // 1 hora para compensar horário de verão
+		System.out.println(dt / 86400000L);
+		
+		System.out.println("Hora: " + dt);
+
+	}
+
+	public static void teste() {
+		int segundos;
+		int minutos;
+		int horas;
+		Calendar data;
+
+		try {
+			while (true) {
+				Thread.sleep(1000);
+				data = Calendar.getInstance();
+				horas = data.get(Calendar.HOUR_OF_DAY);
+				minutos = data.get(Calendar.MINUTE);
+				segundos = data.get(Calendar.SECOND);
+				System.out.println(horas + ":" + minutos + ":" + segundos);
+			}
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

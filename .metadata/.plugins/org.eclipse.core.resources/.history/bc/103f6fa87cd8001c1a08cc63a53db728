@@ -1,0 +1,34 @@
+package quadroAcidente;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
+
+public class Teste {
+	public static void main(String[] args) {
+		long soma, soma2;
+		
+		int contagemInicial = 629;
+
+		LocalDate dataInicio = LocalDate.of(2022,5,1);
+		LocalDate dataFinal = LocalDate.of(2022,5,20);
+		
+		LocalDateTime diaFinal = LocalDateTime.now();
+		
+		long days = ChronoUnit.DAYS.between(dataInicio, dataFinal);		
+		long tempo = ChronoUnit.DAYS.between(dataInicio, diaFinal);
+		
+		System.out.println("Dias contado aparti da data de início: "+days);
+		
+		soma = contagemInicial + days;
+		soma2 = contagemInicial + tempo;
+		
+		System.out.println("Quadro de acidente: "+ soma);		
+		//System.out.println("Quadro de acidente em tempo: "+ soma2);
+	}
+	
+	
+
+	
+
+}

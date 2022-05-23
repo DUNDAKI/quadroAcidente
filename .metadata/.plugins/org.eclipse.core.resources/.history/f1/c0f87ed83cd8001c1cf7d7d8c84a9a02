@@ -1,0 +1,77 @@
+package dio;
+
+import java.util.Calendar;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Calendar hoje = Calendar.getInstance();
+		int diaSeguinte = 0;
+		int soma = 0;
+		int num = 0;
+		int cont = 0;
+		int diaAnterior;
+
+		// System.out.println("");
+		int contagemInicial = 629;
+		System.out.println("\n-----Contagem início-----\n");
+		System.out.println("Contagem início: " + contagemInicial + " dias");
+		System.out.println("20/05/2022");
+		System.out.println("\n--------------------------\n");
+
+		int ano = hoje.get(Calendar.YEAR);
+		int mes = hoje.get(Calendar.MONTH);
+		int dia = hoje.get(Calendar.DAY_OF_MONTH);
+		// System.out.println(mes);
+		// System.out.println(ano);
+
+		diaAnterior = 0;
+		System.out.println("O dia é: " + dia);
+		if (dia > diaAnterior) {
+		//	diaAnterior = 0;
+			//System.out.println("Dia anterior foi zerado:" + diaAnterior);
+		}
+//		for (int i = 0; i < 10; i++) {
+//			cont++;
+//			dia++;
+//			
+//			System.out.println("O dia alterado: " + dia);
+//		}
+////		
+//		while(dia != 0) {
+//			System.out.println("Informe dias: ");
+//			num = sc.nextInt();
+//			sc.nextLine();
+//			
+//		}
+		while(dia != 0) {
+			System.out.println("Informe dias: ");
+			num = sc.nextInt();
+			
+
+			dia = num;
+			if(dia > 30) {
+				diaAnterior = 0;
+			}else {
+				cont++;
+				contagemInicial += cont;
+				System.out.println("Dias atualizado: " + contagemInicial + " dias");
+				
+			}
+			
+			
+			
+			
+			
+			
+		}
+
+		
+
+		sc.close();
+
+	}
+
+}

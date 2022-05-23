@@ -1,0 +1,22 @@
+package pegandoDiaAnterior;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class Pegando_dia {
+
+	public static void main(String[] args) {
+		
+		Date dataTeste = new Date();
+
+		Calendar cal = Calendar.getInstance(); 
+		cal.setTime(dataTeste ); 
+		cal.add(Calendar.DATE, -1);
+		dataTeste = cal.getTime();
+		
+		
+		System.out.println("Data: " + dataTeste);
+	}
+	
+
+}

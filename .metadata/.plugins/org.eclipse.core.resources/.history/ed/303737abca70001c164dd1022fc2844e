@@ -1,0 +1,58 @@
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+import java.util.Enumeration;
+import java.util.Formatter;
+
+public class BuscarIP {
+
+	public static void main(String[] args) throws UnknownHostException {
+		
+		ip3();
+	}
+	public static void ip3() throws UnknownHostException {
+		InetAddress localhost = InetAddress.getLocalHost(); 
+        byte[] ip = localhost.getAddress();
+        int[] ip2 = new int[ip.length];
+        System.out.println("Imprimindo em byte:");
+        for (int i = 0; i < 4; i++) {
+            System.out.printf("Ip: %d ", ip[i] & 0xFFL); //imprime não-sinalizado
+            ip2[i] = (int) (ip[i] & 0xFFL); //armazenei já como não-sinalizado em um int[]
+        }
+        System.out.println("\nImprimindo em int:");
+        for (int i = 0; i < 4; i++) {
+            System.out.printf("Ip: %d ", ip2[i]); //imprime o int não-sinalizado
+        }
+	
+	}
+	public static void ip2() {
+		InetAddress ia = null;
+		try {
+		ia = InetAddress.getLocalHost();
+		} catch (UnknownHostException e) {
+		e.printStackTrace();
+		}
+
+		System.out.println("IP: " + ia.getHostAddress());
+		System.out.println("Nome: " + ia.getHostName());
+	}
+	
+	public static void ip() {
+		Enumeration nis = null;
+		try {
+		nis = NetworkInterface.getNetworkInterfaces();
+		} catch (SocketException e) {
+		e.printStackTrace();
+		}
+		while (nis.hasMoreElements()) {
+		NetworkInterface ni = (NetworkInterface) nis.nextElement();
+		Enumeration ias = ni.getInetAddresses();
+		while (ias.hasMoreElements()) {
+		InetAddress ia = (InetAddress) ias.nextElement();
+		System.out.println(ni.getName() + " -> ip: " + ia.getHostAddress() + " - hostname: " + ia.getHostName());
+		}
+		}
+	}
+
+}

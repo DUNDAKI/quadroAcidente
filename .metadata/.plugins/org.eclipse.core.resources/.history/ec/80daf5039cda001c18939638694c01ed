@@ -1,0 +1,67 @@
+package quadroAcidente;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Scanner;
+
+public class Teste {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int i = 0;
+		
+		int soma = 0;
+		
+
+		int contagemInicial = 629;
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		
+		LocalDate hoje = LocalDate.now();
+		LocalDate dia_anterior = LocalDate.of(2022,5,18);
+		
+		
+		long days = ChronoUnit.DAYS.between(dia_anterior, hoje);
+		
+		System.out.println("--------------------");
+		System.out.println("Diferença de dias: " + days);
+		System.out.println("--------------------");
+		
+		for (int j = 0; j < days; j++) {
+			
+			days += 1;
+			System.out.println("Contando os dias: " + days);
+			
+		}
+		
+		soma = (int) days;
+		
+		while( i <= soma) {
+			System.out.println("Contador: " + i);
+			
+			contagemInicial+=1;
+			
+			System.out.println("Contador2: " + contagemInicial);
+			break;
+			
+		}
+		
+		System.out.println("informar dias");
+		
+		//num = sc.nextInt();
+		System.out.println("Quadro atualizado: " + contagemInicial);
+		
+	
+
+		
+
+		
+
+		sc.close();
+	}
+
+}

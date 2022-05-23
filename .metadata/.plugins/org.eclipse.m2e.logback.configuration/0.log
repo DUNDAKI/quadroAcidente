@@ -1,0 +1,380 @@
+2022-01-08 17:58:34,941 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-02-28 11:28:38,237 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-07 21:02:55,985 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-11 21:04:45,410 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-28 10:33:37,492 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-04-07 06:15:08,522 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-04-22 09:26:33,782 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-04-23 02:06:15,505 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-23 02:28:55,570 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo1.maven.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.jar
+2022-04-23 02:28:55,833 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo1.maven.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.jar
+2022-04-23 02:28:55,967 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo1.maven.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.pom
+2022-04-23 02:28:56,102 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo1.maven.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.pom
+2022-04-23 02:30:18,559 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\pom.xml
+2022-04-23 02:30:20,384 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+2022-04-23 02:30:20,650 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+2022-04-23 02:30:20,825 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.jar
+2022-04-23 02:30:21,003 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.jar
+2022-04-23 02:30:21,160 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
+2022-04-23 02:30:21,308 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
+2022-04-23 02:30:21,456 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.jar
+2022-04-23 02:30:21,662 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.jar
+2022-04-23 02:30:21,811 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.7.1/maven-site-plugin-3.7.1.jar
+2022-04-23 02:30:22,086 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.7.1/maven-site-plugin-3.7.1.jar
+2022-04-23 02:30:22,266 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.pom
+2022-04-23 02:30:22,405 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.pom
+2022-04-23 02:30:22,576 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/32/maven-plugins-32.pom
+2022-04-23 02:30:22,740 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/32/maven-plugins-32.pom
+2022-04-23 02:30:22,890 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/32/maven-parent-32.pom
+2022-04-23 02:30:23,060 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/32/maven-parent-32.pom
+2022-04-23 02:30:23,207 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/20/apache-20.pom
+2022-04-23 02:30:23,357 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/20/apache-20.pom
+2022-04-23 02:30:24,303 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: jota.br:mavenquickstart:0.0.1-SNAPSHOT @ C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\pom.xml.
+2022-04-23 02:30:24,843 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom
+2022-04-23 02:30:25,103 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom
+2022-04-23 02:30:25,337 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar
+2022-04-23 02:30:25,820 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar
+2022-04-23 02:30:26,091 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom
+2022-04-23 02:30:26,251 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom
+2022-04-23 02:30:26,448 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+2022-04-23 02:30:26,612 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+2022-04-23 02:30:26,813 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom
+2022-04-23 02:30:26,957 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom
+2022-04-23 02:30:27,104 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom
+2022-04-23 02:30:27,245 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom
+2022-04-23 02:30:27,426 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom
+2022-04-23 02:30:27,582 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom
+2022-04-23 02:30:27,769 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom
+2022-04-23 02:30:27,929 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom
+2022-04-23 02:30:28,083 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+2022-04-23 02:30:28,226 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+2022-04-23 02:30:28,412 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom
+2022-04-23 02:30:28,556 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom
+2022-04-23 02:30:28,756 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom
+2022-04-23 02:30:28,896 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom
+2022-04-23 02:30:29,066 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar
+2022-04-23 02:30:29,202 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+2022-04-23 02:30:29,225 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+2022-04-23 02:30:29,225 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+2022-04-23 02:30:29,225 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+2022-04-23 02:30:29,490 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar
+2022-04-23 02:30:29,496 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+2022-04-23 02:30:29,505 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+2022-04-23 02:30:29,629 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+2022-04-23 02:30:29,633 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+2022-04-23 02:30:29,738 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenquickstart/src/main/java
+2022-04-23 02:30:29,748 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenquickstart/src/test/java
+2022-04-23 02:30:29,949 [Worker-7: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2022-04-23 02:30:30,454 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:30:30,454 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 02:30:30,458 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:30:30,459 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-23 02:34:00,336 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:34:00,337 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 02:34:00,340 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:34:00,340 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-23 02:36:52,025 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: jota.br:mavenquickstart:0.0.1-SNAPSHOT @ C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\pom.xml.
+2022-04-23 02:36:52,347 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:36:52,347 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 02:36:52,350 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:36:52,351 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-23 02:36:53,795 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:36:53,795 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 02:36:53,797 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:36:53,798 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-23 02:39:39,778 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:39:39,779 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 02:39:39,781 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:39:39,781 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-23 02:42:11,159 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:42:11,160 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 02:42:11,162 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:42:11,163 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-23 02:42:23,519 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:42:23,519 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 02:42:23,521 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:42:23,522 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-23 02:42:29,743 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:42:29,743 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 02:42:29,745 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:42:29,746 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-23 02:44:07,941 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:44:07,941 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 02:44:07,943 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:44:07,943 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-23 02:44:56,112 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:44:56,113 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 02:44:56,117 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 02:44:56,117 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-23 12:22:42,414 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 12:22:42,415 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-23 12:22:42,417 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 12:22:42,417 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-25 06:24:20,202 [Worker-11: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-04-25 06:24:22,331 [Worker-3: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:24:22,332 [Worker-3: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-25 06:24:22,336 [Worker-3: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:24:22,336 [Worker-3: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-25 06:35:31,145 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:35:31,146 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-25 06:35:31,148 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:35:31,149 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-25 06:42:23,270 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:42:23,271 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-25 06:42:23,283 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:42:23,283 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-25 06:42:44,809 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:42:44,810 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-25 06:42:44,813 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:42:44,816 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-25 06:45:50,182 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:45:50,183 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-25 06:45:50,186 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:45:50,186 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-25 06:51:08,775 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:51:08,776 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-25 06:51:08,778 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-25 06:51:08,778 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 07:40:20,245 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:40:20,262 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 07:40:20,265 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:40:20,265 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 07:40:27,304 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:40:27,304 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 07:40:27,309 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:40:27,309 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 07:40:53,976 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:40:53,977 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 07:40:53,979 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:40:53,979 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 07:43:41,159 [Worker-31: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:43:41,159 [Worker-31: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 07:43:41,163 [Worker-31: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:43:41,163 [Worker-31: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 07:48:40,079 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:48:40,079 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 07:48:40,081 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:48:40,081 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 07:53:53,006 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:53:53,007 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 07:53:53,009 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 07:53:53,009 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 08:07:06,221 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 08:07:06,221 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 08:07:06,223 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 08:07:06,223 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 08:07:14,768 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 08:07:14,768 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 08:07:14,769 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 08:07:14,770 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 08:07:28,212 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 08:07:28,212 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 08:07:28,214 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 08:07:28,214 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 08:09:52,823 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 08:09:52,824 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 08:09:52,827 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 08:09:52,828 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 12:45:13,001 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:45:13,001 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 12:45:13,003 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:45:13,003 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 12:48:25,006 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:48:25,006 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 12:48:25,008 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:48:25,009 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 12:50:03,502 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:50:03,503 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 12:50:03,504 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:50:03,505 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 12:50:57,519 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:50:57,519 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 12:50:57,521 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:50:57,521 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 12:55:13,937 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:55:13,938 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 12:55:13,939 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:55:13,940 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 12:56:52,918 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:56:52,919 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 12:56:52,920 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:56:52,921 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 12:56:55,571 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:56:55,572 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 12:56:55,573 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:56:55,574 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 12:57:00,301 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:57:00,302 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 12:57:00,304 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 12:57:00,304 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:03:23,443 [Worker-57: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:03:23,443 [Worker-57: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:03:23,445 [Worker-57: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:03:23,445 [Worker-57: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:06:08,565 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:06:08,566 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:06:08,567 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:06:08,568 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:07:03,172 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:07:03,172 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:07:03,173 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:07:03,173 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:10:07,323 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:10:07,323 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:10:07,325 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:10:07,325 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:11:11,365 [Worker-61: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:11:11,365 [Worker-61: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:11:11,367 [Worker-61: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:11:11,368 [Worker-61: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:11:31,617 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:11:31,618 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:11:31,619 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:11:31,620 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:18:36,992 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:18:36,992 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:18:36,993 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:18:36,993 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:18:59,094 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:18:59,095 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:18:59,096 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:18:59,097 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:20:31,900 [Worker-55: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:20:31,900 [Worker-55: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:20:31,902 [Worker-55: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:20:31,902 [Worker-55: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:26:04,835 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:26:04,835 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:26:04,837 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:26:04,837 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:26:27,286 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:26:27,287 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:26:27,288 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:26:27,289 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:45:02,951 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:45:02,952 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:45:02,953 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:45:02,954 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:45:17,074 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:45:17,075 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:45:17,077 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:45:17,077 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 13:47:47,991 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:47:47,992 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 13:47:47,993 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 13:47:47,993 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:00:05,994 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:00:05,995 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:00:05,997 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:00:05,997 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:18:20,364 [Worker-74: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:18:20,365 [Worker-74: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:18:20,367 [Worker-74: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:18:20,368 [Worker-74: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:24:20,775 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:24:20,775 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:24:20,777 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:24:20,777 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:26:46,953 [Worker-78: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:26:46,953 [Worker-78: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:26:46,955 [Worker-78: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:26:46,955 [Worker-78: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:27:48,247 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:27:48,247 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:27:48,249 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:27:48,249 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:30:15,924 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:30:15,925 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:30:15,926 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:30:15,926 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:32:26,151 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:32:26,151 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:32:26,152 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:32:26,153 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:32:59,574 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:32:59,575 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:32:59,576 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:32:59,577 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:34:09,924 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:34:09,925 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:34:09,926 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:34:09,927 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:34:35,849 [Worker-84: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:34:35,850 [Worker-84: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:34:35,851 [Worker-84: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:34:35,851 [Worker-84: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:34:56,860 [Worker-78: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:34:56,860 [Worker-78: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:34:56,862 [Worker-78: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:34:56,862 [Worker-78: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:36:11,369 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:36:11,369 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:36:11,371 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:36:11,371 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:56:54,237 [Worker-89: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:56:54,238 [Worker-89: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:56:54,239 [Worker-89: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:56:54,240 [Worker-89: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:58:28,468 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:58:28,469 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:58:28,470 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:58:28,471 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:58:33,140 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:58:33,140 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:58:33,141 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:58:33,142 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:59:02,700 [Worker-84: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:59:02,701 [Worker-84: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:59:02,702 [Worker-84: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:59:02,703 [Worker-84: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 14:59:52,533 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:59:52,533 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 14:59:52,534 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 14:59:52,535 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 15:04:02,329 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 15:04:02,330 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 15:04:02,331 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 15:04:02,331 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 15:04:39,732 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 15:04:39,732 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 15:04:39,733 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 15:04:39,734 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 15:05:08,907 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 15:05:08,908 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 15:05:08,909 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 15:05:08,909 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 15:05:24,139 [Worker-90: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 15:05:24,140 [Worker-90: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 15:05:24,141 [Worker-90: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 15:05:24,142 [Worker-90: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 15:05:35,257 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 15:05:35,258 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 15:05:35,259 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 15:05:35,259 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 18:52:36,941 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 18:52:36,942 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 18:52:36,944 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 18:52:36,944 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 18:52:55,210 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 18:52:55,210 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 18:52:55,212 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 18:52:55,212 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 18:55:52,049 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 18:55:52,049 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-04-29 18:55:52,051 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 18:55:52,051 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-04-29 19:00:37,525 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-04-29 19:14:57,176 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-01 04:17:41,442 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-01 04:32:41,417 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-17 08:03:42,663 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-20 07:40:17,076 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-20 10:40:40,164 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-22 04:40:13,330 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-23 11:11:26,466 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-23 11:11:44,516 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-23 11:11:44,564 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\main\resources
+2022-05-23 11:11:44,567 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-23 11:11:44,568 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PROJETO DEV\PROJETO_ECLIPSE\mavenquickstart\src\test\resources
+2022-05-23 11:28:29,941 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-23 15:30:59,821 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

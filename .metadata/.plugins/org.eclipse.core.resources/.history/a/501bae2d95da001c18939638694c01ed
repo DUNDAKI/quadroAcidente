@@ -1,0 +1,38 @@
+package teste;
+
+import java.text.ParseException;
+import java.util.Calendar;
+import java.util.Date;
+
+public class Main {
+
+	public static void main(String[] args) throws ParseException {
+
+		teste();
+	        
+	       
+
+	}
+	
+	  public static void teste(){
+	        int segundos;
+	        int minutos;
+	        int horas;
+	        Calendar data;
+	        
+	        try{
+	            while(true){
+	                Thread.sleep(1000);
+	                data = Calendar.getInstance();
+	                horas = data.get(Calendar.HOUR_OF_DAY);
+	                minutos = data.get(Calendar.MINUTE);
+	                segundos = data.get(Calendar.SECOND);
+	                System.out.println(horas + ":" + minutos + ":" + segundos);
+	            }
+	        }
+	        catch(InterruptedException e){
+	            e.printStackTrace();
+	        }
+	    }
+
+}

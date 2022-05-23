@@ -1,0 +1,44 @@
+package main;
+
+import java.io.IOException;
+
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+public class Main {
+
+	public static void main(String[] args) {
+		XMLParser parser = new XMLParser();
+		NodeList xmlParsed = null;
+		try {
+			xmlParsed = parser.parse("C:\\PROJETO DEV\\VS_CODE\\teste.xml");
+		} catch (ParserConfigurationException | SAXException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		if (xmlParsed != null) {
+			// Seu código vai aqui
+			
+			// Para acessar apenas 1 elemento
+			Element element1 = (Element) xmlParsed.item(0);
+			System.out.println(element1.getTextContent());
+			
+			// Para iterar todos os elementos
+			for (int i = 0; i < xmlParsed.getLength(); i++) {
+				Element element = (Element) xmlParsed.item(i);
+				System.out.println(i + " --- " + element.getNodeName() + " " + element.getTextContent());
+				if (element.getNodeName().equalsIgnoreCase("book")) {
+					System.out.println("Book ID= " + element.getAttribute("id"));
+				}
+				if (element.getNodeName().equalsIgnoreCase("isbn")) {
+					System.out.println("ISBN Kind=" + element.getAttribute("kind"));
+				}
+			}
+		}
+
+	}
+
+}

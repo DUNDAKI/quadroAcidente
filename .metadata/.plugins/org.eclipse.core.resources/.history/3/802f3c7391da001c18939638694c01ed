@@ -1,0 +1,26 @@
+package teste;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Main {
+
+	public static void main(String[] args) throws ParseException {
+		   
+		Date dataInicial, dataFinal;
+		String strDataInicial = "14/01/2017 23:45";
+		String strDataFinal = "14/01/2017 00:00";
+
+		SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+		SimpleDateFormat sdf2 = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+
+		dataFinal = sdf1.parse(strDataFinal);
+		dataInicial = sdf2.parse(strDataInicial);
+
+		System.out.println(dataInicial.compareTo(dataFinal));
+		System.out.println(dataInicial.after(dataFinal));
+
+	}
+
+}

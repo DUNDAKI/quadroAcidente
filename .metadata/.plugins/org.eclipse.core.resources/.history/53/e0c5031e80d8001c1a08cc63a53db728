@@ -1,0 +1,57 @@
+package quadroAcidente;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
+import java.util.Scanner;
+
+public class Teste {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		float  soma2;
+		float ano;
+		
+		String opcao;
+		
+		float soma;
+		
+		float contagemInicial = 629;
+
+		LocalDate dataInicio = LocalDate.of(2022,5,1);
+		LocalDate dataFinal = LocalDate.of(2022,5,20);
+		
+		ano = contagemInicial /365;
+		
+		LocalDateTime diaFinal = LocalDateTime.now();
+		
+		long days = ChronoUnit.DAYS.between(dataInicio, dataFinal);		
+		long tempo = ChronoUnit.DAYS.between(dataInicio, diaFinal);
+		
+		
+		
+		System.out.println("Dias contado aparti da data de início: "+days);
+		
+		soma = contagemInicial + days;
+		soma2 = contagemInicial + tempo;
+		
+		//System.out.println("Quadro de acidente: "+ soma);		
+		System.out.println("Quadro de acidente em tempo: "+  String.format("%.0f",  soma2) + " dias sem acidentes");
+		System.out.println("Quantidade de tempo sem acidentes: " + String.format("%.2f",  ano));
+		
+		System.out.println("Deseja zerar o quadro de acidente");
+		opcao = sc.nextLine();
+		
+		if(opcao.equals("y")) {
+			System.out.println("Dados Apagado");
+		}
+		
+		
+		
+		sc.close();
+	}
+	
+	
+
+	
+
+}
